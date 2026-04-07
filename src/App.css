@@ -1,6 +1,6 @@
-/* ═══════════════════════════════════════════════════
-   PTSDCare — App.css  (complete, all pages)
-═══════════════════════════════════════════════════ */
+/* ----
+   PTSDCare - App.css  (complete, all pages)
+---- */
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap');
 
@@ -37,9 +37,9 @@ h1,h2,h3,h4 {
   letter-spacing: -0.02em;
 }
 
-/* ══════════════════════════════════════════════════
+/* ----
    AUTH
-══════════════════════════════════════════════════ */
+---- */
 .auth-container {
   background: white;
   width: 360px;
@@ -115,9 +115,9 @@ h1,h2,h3,h4 {
   to   { opacity:1; transform:translateY(0); }
 }
 
-/* ══════════════════════════════════════════════════
+/* ----
    SHARED DASHBOARD SHELL
-══════════════════════════════════════════════════ */
+---- */
 .dashboard {
   width: 92%;
   max-width: 1200px;
@@ -192,9 +192,9 @@ h1,h2,h3,h4 {
 }
 .card-link-btn:hover { background: var(--rose-dark); }
 
-/* ══════════════════════════════════════════════════
+/* ----
    SHARED BUTTONS
-══════════════════════════════════════════════════ */
+---- */
 .btn-rose {
   display: inline-block; padding: 14px 32px; border-radius: 100px;
   background: var(--rose); color: white; border: none; cursor: pointer;
@@ -258,11 +258,11 @@ h1,h2,h3,h4 {
 }
 .btn-secondary-sm:hover { border-color: var(--taupe); color: var(--text-dark); }
 
-/* ══════════════════════════════════════════════════
+/* ----
    MOOD TRACKER
-══════════════════════════════════════════════════ */
+---- */
 
-/* Language toggle — same row, never stacked */
+/* Language toggle - same row, never stacked */
 .lang-toggle {
   display: flex;
   flex-direction: row;
@@ -461,9 +461,9 @@ h1,h2,h3,h4 {
 .entry-date  { font-size: 12px; color: var(--text-soft); }
 .entry-note  { font-size: 13px; color: var(--text-mid); font-style: italic; margin-top: 2px; }
 
-/* ══════════════════════════════════════════════════
+/* ----
    COPING RESOURCES
-══════════════════════════════════════════════════ */
+---- */
 .coping-wrap { max-width: 820px; }
 
 .coping-greeting-card {
@@ -646,9 +646,9 @@ h1,h2,h3,h4 {
 }
 .resource-chip:hover { background: var(--rose); color: white; border-color: var(--rose); }
 
-/* ══════════════════════════════════════════════════
+/* ----
    AI THERAPIST
-══════════════════════════════════════════════════ */
+---- */
 .ai-disclaimer {
   background: rgba(155,175,155,0.15);
   border: 1px solid rgba(155,175,155,0.4);
@@ -794,9 +794,9 @@ h1,h2,h3,h4 {
   text-align: center;
 }
 
-/* ══════════════════════════════════════════════════
+/* ----
    SCREENING PAGE
-══════════════════════════════════════════════════ */
+---- */
 .screening-card-wrap { max-width: 820px; }
 
 .screening-page-disclaimer {
@@ -878,9 +878,9 @@ h1,h2,h3,h4 {
 .result-source { font-size: 12px; color: var(--text-soft); line-height: 1.5; }
 .result-actions { display: flex; flex-wrap: wrap; gap: 10px; padding-top: 8px; border-top: 1px solid var(--border); }
 
-/* ══════════════════════════════════════════════════
+/* ----
    LANDING PAGE
-══════════════════════════════════════════════════ */
+---- */
 .landing { background: var(--cream); }
 
 .disclaimer-banner { background: var(--sage-light); border-bottom: 1px solid rgba(155,175,155,0.4); padding: 11px 24px; text-align: center; font-size: 13px; color: var(--text-mid); line-height: 1.5; }
@@ -992,9 +992,9 @@ h1,h2,h3,h4 {
 .l-footer-inner .landing-logo em { color: var(--blush); }
 .l-footer-inner p { font-size: 13px; color: rgba(250,246,240,0.45); line-height: 1.6; }
 
-/* ══════════════════════════════════════════════════
+/* ----
    RESPONSIVE
-══════════════════════════════════════════════════ */
+---- */
 @media (max-width: 900px) {
   .safe-grid, .breathing-layout { grid-template-columns: 1fr; }
   .screen-chooser { grid-template-columns: 1fr; }
@@ -1016,9 +1016,9 @@ h1,h2,h3,h4 {
   .coping-topic-grid { grid-template-columns: 1fr; }
 }
 
-/* ══════════════════════════════════════════════════
+/* ----
    MEDITATION PAGE
-══════════════════════════════════════════════════ */
+---- */
 .med-info-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1129,9 +1129,9 @@ h1,h2,h3,h4 {
 .med-done-note { font-size: 14px; color: var(--text-soft); }
 .med-done-btns { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
 
-/* ══════════════════════════════════════════════════
+/* ----
    CLINIC MAP PAGE
-══════════════════════════════════════════════════ */
+---- */
 .clinic-disclaimer {
   background: rgba(155,175,155,0.12);
   border: 1px solid rgba(155,175,155,0.3);
@@ -1209,9 +1209,9 @@ h1,h2,h3,h4 {
 .clinic-call-btn:hover { background: var(--sage); color: white; border-color: var(--sage); }
 .clinic-no-results { font-size: 14px; color: var(--text-soft); padding: 20px; text-align: center; }
 
-/* ══════════════════════════════════════════════════
+/* ----
    SCREENING STRATEGIES
-══════════════════════════════════════════════════ */
+---- */
 .result-strategies {
   background: var(--cream);
   border: 1px solid var(--border);
@@ -1238,9 +1238,9 @@ h1,h2,h3,h4 {
 .strategy-label { font-size: 15px; font-weight: 500; color: var(--text-dark); margin-bottom: 3px; font-family: 'DM Sans', sans-serif; }
 .strategy-desc  { font-size: 13px; color: var(--text-soft); line-height: 1.6; font-weight: 300; }
 
-/* ══════════════════════════════════════════════════
-   MOOD TRACKER — journal purpose card
-══════════════════════════════════════════════════ */
+/* ----
+   MOOD TRACKER - journal purpose card
+---- */
 .mood-purpose-card {
   display: flex;
   gap: 18px;
@@ -1270,9 +1270,9 @@ h1,h2,h3,h4 {
   .med-script-text { font-size: 16px; }
 }
 
-/* ══════════════════════════════════════════════════
+/* ----
    SCREENING HISTORY
-══════════════════════════════════════════════════ */
+---- */
 .screening-history-bar {
   display: flex;
   align-items: center;
@@ -1374,4 +1374,42 @@ h1,h2,h3,h4 {
   max-width: 780px;
   margin-bottom: 12px;
   line-height: 1.5;
+}
+
+.ai-setup-banner {
+  background: rgba(196,149,106,0.12);
+  border: 1px solid rgba(196,149,106,0.35);
+  border-radius: 12px;
+  padding: 13px 18px;
+  font-size: 14px;
+  color: var(--text-mid);
+  max-width: 780px;
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.ai-setup-banner code {
+  background: rgba(196,149,106,0.15);
+  padding: 2px 7px;
+  border-radius: 5px;
+  font-family: monospace;
+  font-size: 13px;
+}
+.ai-setup-banner a { color: var(--rose-dark); font-weight: 600; }
+.ai-retry-btn {
+  background: none; border: 1px solid rgba(168,64,64,0.3);
+  color: #a84040; border-radius: 100px; padding: 3px 12px;
+  font-size: 12px; cursor: pointer; margin-left: 10px;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.ai-status-msg {
+  background: rgba(155,175,155,0.15);
+  border: 1px solid rgba(155,175,155,0.35);
+  border-radius: 10px;
+  padding: 11px 16px;
+  font-size: 13px;
+  color: var(--sage-dark);
+  max-width: 780px;
+  margin-bottom: 12px;
+  animation: fadeIn 0.3s ease;
 }
